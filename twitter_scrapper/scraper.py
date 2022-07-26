@@ -9,10 +9,10 @@ import matplotlib.pyplot as pyplot
 
 
 # First update below varibales with your own information
-consumer_key = "Orvbf7r3sgWHc2Ktm031llXNl"
-consumer_secret = "qKfuTdkRHjMPyKLXRQN4pVkXx9VpOOZu8gQehMnoYRJhk56CwW"
-access_token = "1486428029203136515-cjLZwzZQITwFKcLaLM3ibeQPk26AO4"
-access_token_secret = "kh1hyP0VUzAb86zfQ2FjWNJZy5uyEuzCeRAzTfDiADgR4"
+consumer_key = "Add your own consumer_key"
+consumer_secret = "Add your own consumer_secret"
+access_token = "Add your own access_token"
+access_token_secret = "Add your own access_token_secret"
 # Setting up Tweepy authorization
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
